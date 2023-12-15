@@ -1,206 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>My resume</title>
+      <link rel="stylesheet" href="./css/style.css" />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+         rel="stylesheet"
+      />
+   </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My resume</title>
-  <link rel="stylesheet" href="./css/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
-</head>
+   <body>
+      <header class="header">
+         <h1 class="header__title">Oleksii Holodenko</h1>
+         <h2 class="header__subtitle">Front-End Developer</h2>
+      </header>
+      <!-- main container -->
+      <main class="wrapper">
+         <section class="sidebar">
+            <img class="sidebar__photo" src="./img/photo.jpg" alt="My Photo" />
+            <!-- Contacts -->
+            <div class="sidebar__contacts">
+               <h3 class="sidebar__contacts--title">Contacts</h3>
+               <ul class="sidebar__contacts--items">
+                  <li class="sidebar__contacts--item">
+                     <img
+                        class="sidebar__contacts--item-type"
+                        src="./img/cell-phone-icon-images-23.png"
+                        alt="mobile"
+                        width="20px"
+                     />
+                     <a
+                        class="sidebar__contacts--item-link"
+                        href="tel:380963459290"
+                        >+38 096 345 92 90</a
+                     >
+                  </li>
+                  <li class="sidebar__contacts--item">
+                     <img
+                        class="sidebar__contacts--item-type"
+                        src="./img/envelope-regular.svg"
+                        alt="mail"
+                        width="20px"
+                     />
+                     <a
+                        class="sidebar__contacts--item-link"
+                        href="mailto:alexey.golodenko@gmail.com"
+                        >alexey.golodenko@gmail.com</a
+                     >
+                  </li>
+               </ul>
+            </div>
+            <div class="sidebar__skills">
+               <!-- Tech Skills -->
+               <div class="sidebar__tech-skills">
+                  <h3 class="sidebar__tech-skills--title">Tech Skills</h3>
+                  <ul class="sidebar__tech-skills--items">
+                     <li class="sidebar__tech-skills--item">
+                        <span class="sidebar__tech-skills--text">HTML5</span>
+                     </li>
+                     <li class="sidebar__tech-skills--item">
+                        <span class="sidebar__tech-skills--text">CSS3</span>
+                     </li>
+                     <li class="sidebar__tech-skills--item">
+                        <span class="sidebar__tech-skills--text">Sass</span>
+                     </li>
+                     <li class="sidebar__tech-skills--item">
+                        <span class="sidebar__tech-skills--text"
+                           >JavaScript</span
+                        >
+                     </li>
+                     <li class="sidebar__tech-skills--item">
+                        <span class="sidebar__tech-skills--text">React</span>
+                     </li>
+                     <li class="sidebar__tech-skills--item">
+                        <span class="sidebar__tech-skills--text">Redux</span>
+                     </li>
+                     <li class="sidebar__tech-skills--item">
+                        <span class="sidebar__tech-skills--text">Next</span>
+                     </li>
+                     <li class="sidebar__tech-skills--item">
+                        <span class="sidebar__tech-skills--text">BEM</span>
+                     </li>
+                     <li class="sidebar__tech-skills--item">
+                        <span class="sidebar__tech-skills--text">GIT</span>
+                     </li>
+                     <li class="sidebar__tech-skills--item">
+                        <span class="sidebar__tech-skills--text">WebPack</span>
+                     </li>
+                     <li class="sidebar__tech-skills--item">
+                        <span class="sidebar__tech-skills--text">Gulp</span>
+                     </li>
+                     <li class="sidebar__tech-skills--item">
+                        <span class="sidebar__tech-skills--text"
+                           >Wordpress</span
+                        >
+                     </li>
+                     <li class="sidebar__tech-skills--item">
+                        <span class="sidebar__tech-skills--text">Modx</span>
+                     </li>
+                     <li class="sidebar__tech-skills--item">
+                        <span class="sidebar__tech-skills--text">Webflow</span>
+                     </li>
+                  </ul>
+               </div>
+               <!-- Soft Skills -->
+               <div class="sidebar__soft-skills">
+                  <h3 class="sidebar__soft-skills--title">Soft Skills</h3>
+                  <ul>
+                     <li class="sidebar__soft-skills--item">
+                        <span class="sidebar__soft-skills--text"
+                           >Communication</span
+                        >
+                     </li>
+                     <li class="sidebar__soft-skills--item">
+                        <span class="sidebar__soft-skills--text"
+                           >Responsibility</span
+                        >
+                     </li>
+                     <li class="sidebar__soft-skills--item">
+                        <span class="sidebar__soft-skills--text"
+                           >Flexibility</span
+                        >
+                     </li>
+                     <li class="sidebar__soft-skills--item">
+                        <span class="sidebar__soft-skills--text">Teamwork</span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </section>
+         <!-- about me container -->
+         <section class="about-me">
+            <!-- about me main info container -->
+            <div class="about-me__info">
+               <p class="about-me__text">
+                  My name is Oleksii. I like coding and me interested in new
+                  challenges. My hobbies: Chess. Open for learning.
+               </p>
+            </div>
+            <!-- projects container -->
+            <div class="projects">
+               <h2 class="projects__title">Projects</h2>
+               <ol class="projects__items">
+                  <li class="projects__item">
+                     <a
+                        class="projects__link"
+                        href="https://unexbank.ua/"
+                        target="_blank"
+                        >UnexBank</a
+                     >
+                     <p>
+                        <b>[</b>
+                        <span class="projects__text"
+                           >HTML5, CSS3, JavaScript, GIT
+                        </span>
+                        <b>]</b>
+                     </p>
+                  </li>
+                  <li class="projects__item">
+                     <a
+                        class="projects__link"
+                        href="https://na5ku.com.ua/"
+                        target="_blank"
+                        >Na5ku</a
+                     >
+                     <p>
+                        <b>[</b>
+                        <span class="projects__text"
+                           >HTML5, CSS3, JavaScript, GIT</span
+                        >
+                        <b>]</b>
+                     </p>
+                  </li>
+                  <li class="projects__item">
+                     <a
+                        class="projects__link"
+                        href="http://ligor.in.ua/"
+                        target="_blank"
+                        >ligor.in.ua</a
+                     >
+                     <p>
+                        <b>[</b>
+                        <span class="projects__text"
+                           >HTML5, CSS3, WORDPRESS, JQUERY</span
+                        >
+                        <b>]</b>
+                     </p>
+                  </li>
+                  <li class="projects__item">
+                     <a
+                        class="projects__link"
+                        href="https://ecosystem.yolllo.com/"
+                        target="_blank"
+                        >Yolllo</a
+                     >
+                     <p>
+                        <b>[</b>
+                        <span class="projects__text"
+                           >HTML5, CSS3, JavaScript</span
+                        >
+                        <b>]</b>
+                     </p>
+                  </li>
+               </ol>
+            </div>
+            <!--Work Experience container -->
+            <div class="experience">
+               <h2 class="experience__title">Work Experience</h2>
+               <!--company 1 container -->
+               <div class="profession">
+                  <h4 class="profession__title">Front-End Developer</h4>
+                  <p class="profession__company">Freelance</p>
+                  <span class="profession__time"
+                     >November 2019 - up to now
+                     <span class="profession__divider">|</span> Ukraine</span
+                  >
+               </div>
 
-<body>
-  <header class="header">
-    <h1 class="header__title">Oleksii Holodenko</h1>
-    <h2 class="header__subtitle">Front-End Developer</h2>
-  </header>
-  <!-- main container -->
-  <main class="wrapper">
-    <section class="sidebar">
-      <img class="sidebar__photo" src="./img/photo.jpg" alt="My Photo" />
-      <!-- Contacts -->
-      <div class="sidebar__contacts">
-        <h3 class="sidebar__contacts--title">Contacts</h3>
-        <ul class="sidebar__contacts--items">
-          <li class="sidebar__contacts--item">
-            <img class="sidebar__contacts--item-type" src="./img/cell-phone-icon-images-23.png" alt="mobile"
-              width="20px" />
-            <a class="sidebar__contacts--item-link" href="tel:380963459290">+38 096 345 92 90</a>
-          </li>
-          <li class="sidebar__contacts--item">
-            <img class="sidebar__contacts--item-type" src="./img/envelope-regular.svg" alt="mail" width="20px" />
-            <a class="sidebar__contacts--item-link"
-              href="mailto:alexey.golodenko@gmail.com">alexey.golodenko@gmail.com</a>
-        </ul>
-      </div>
-      <div class="sidebar__skills">
-        <!-- Tech Skills -->
-        <div class="sidebar__tech-skills">
-          <h3 class="sidebar__tech-skills--title">Tech Skills</h3>
-          <ul class="sidebar__tech-skills--items">
-            <li class="sidebar__tech-skills--item">
-              <span class="sidebar__tech-skills--text">HTML5</span>
-            </li>
-            <li class="sidebar__tech-skills--item">
-              <span class="sidebar__tech-skills--text">CSS3</span>
-            </li>
-            <li class="sidebar__tech-skills--item">
-              <span class="sidebar__tech-skills--text">Sass</span>
-            </li>
-            <li class="sidebar__tech-skills--item">
-              <span class="sidebar__tech-skills--text">JavaScript</span>
-            </li>
-            <li class="sidebar__tech-skills--item">
-              <span class="sidebar__tech-skills--text">React</span>
-            </li>
-            <li class="sidebar__tech-skills--item">
-              <span class="sidebar__tech-skills--text">Angular</span>
-            </li>
-            <li class="sidebar__tech-skills--item">
-              <span class="sidebar__tech-skills--text">Next</span>
-            </li>
-            <li class="sidebar__tech-skills--item">
-              <span class="sidebar__tech-skills--text">GIT</span>
-            </li>
-            <li class="sidebar__tech-skills--item">
-              <span class="sidebar__tech-skills--text">WebPack</span>
-            </li>
-          </ul>
-        </div>
-        <!-- Soft Skills -->
-        <div class="sidebar__soft-skills">
-          <h3 class="sidebar__soft-skills--title">Soft Skills</h3>
-          <ul>
-            <li class="sidebar__soft-skills--item">
-              <span class="sidebar__soft-skills--text">Communication</span>
-            </li>
-            <li class="sidebar__soft-skills--item">
-              <span class="sidebar__soft-skills--text">Responsibility</span>
-            </li>
-            <li class="sidebar__soft-skills--item">
-              <span class="sidebar__soft-skills--text">Flexibility</span>
-            </li>
-            <li class="sidebar__soft-skills--item">
-              <span class="sidebar__soft-skills--text">Teamwork</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <!-- about me container -->
-    <section class="about-me">
-      <!-- about me main info container -->
-      <div class="about-me__info">
-        <p class="about-me__text">
-          My name is Oleksii. I like coding and me interested in new challenges.
-          My hobbies: Chess.
-          Open for learning.
-        </p>
-      </div>
-      <!-- projects container -->
-      <div class="projects">
-        <h2 class="projects__title">Projects</h2>
-        <ol class="projects__items">
-          <li class="projects__item">
-            <a class="projects__link" href="https://unexbank.ua/" target="_blank">UnexBank</a>
-            <p>
-              <b>[</b>
-              <span class="projects__text">HTML5, CSS3, JavaScript, GIT </span>
-              <b>]</b>
-            </p>
-          </li>
-          <li class="projects__item">
-            <a class="projects__link" href="https://na5ku.com.ua/"
-              target="_blank">Na5ku</a>
-            <p>
-              <b>[</b>
-              <span class="projects__text">HTML5, CSS3, JavaScript, GIT</span>
-              <b>]</b>
-            </p>
-          </li>
-          <li class="projects__item">
-            <a class="projects__link" href="http://ligor.in.ua/" target="_blank">ligor.in.ua</a>
-            <p>
-              <b>[</b>
-              <span class="projects__text">HTML5, CSS3, WORDPRESS, JQUERY</span>
-              <b>]</b>
-            </p>
-          </li>
-          <li class="projects__item">
-            <a class="projects__link" href="https://ecosystem.yolllo.com/" target="_blank">Yolllo</a>
-            <p>
-              <b>[</b>
-              <span class="projects__text">HTML5, CSS3, JavaScript</span>
-              <b>]</b>
-            </p>
-          </li>
-        </ol>
-      </div>
-      <!--Work Experience container -->
-      <div class="experience">
-        <h2 class="experience__title">Work Experience</h2>
-        <!--company 1 container -->
-        <div class="profession">
-          <h4 class="profession__title">
-            Front-End Developer
-          </h4>
-          <p class="profession__company">Freelance</p>
-          <span class="profession__time">November 2020 - up to now
-            <span class="profession__divider">|</span> Ukraine</span>
-        </div>
-
-        <!--company 2 container -->
-        <div>
-          <h4 class="profession__title">
-            Project-Manager
-          </h4>
-          <p class="profession__company">THE MARAT COMPANY LLC</p>
-          <span class="profession__time">February 2013 - November 2020
-            <span class="profession__divider">|</span> Ukraine</span>
-        </div>
-        <!--company 3 container -->
-        <div>
-          <h4 class="profession__title">
-            Teacher of physics and computer science
-          </h4>
-          <p class="profession__company">School</p>
-          <span class="profession__time">September 2008 - May 2013
-            <span class="profession__divider">|</span> Ukraine</span>
-
-        </div>
-      </div>
-      <!--Education container -->
-      <div class="education">
-        <h2 class="education__title">Education</h2>
-        <!--Education info container -->
-        <div>
-          <h4 class="profession__title">
-            <span class="profession__company">IT School GoIT</span>
-          </h4>
-          <p class="profession__subtitle">Full Stack Developer</p>
-          <span class="profession__time">May 2020 - June 2021
-            <span class="profession__divider">|</span> Ukraine</span>
-        </div>
-        <div>
-          <h4 class="profession__title">
-            <span class="profession__company">Kryvyi Rih State Pedagogical University</span>
-          </h4>
-          <p class="profession__subtitle">Graduate student</p>
-          <span class="profession__time">Septermber 2008 - June 2012
-            <span class="profession__divider">|</span> Ukraine</span>
-        </div>
-        <div>
-          <h4 class="profession__title">
-            <span class="profession__company">Kryvyi Rih State Pedagogical University</span>
-          </h4>
-          <h5 class="profession__subtitle">Teacher of physics, computer science, astronomy and basics of life safety
-          </h5>
-          <span class="profession__time">Septermber 2003 - June 2008
-            <span class="profession__divider">|</span> Ukraine</span>
-        </div>
-      </div>
-    </section>
-  </main>
-</body>
-
+               <!--company 2 container -->
+               <div>
+                  <h4 class="profession__title">Project-Manager</h4>
+                  <p class="profession__company">THE MARAT COMPANY LLC</p>
+                  <span class="profession__time"
+                     >February 2013 - November 2020
+                     <span class="profession__divider">|</span> Ukraine</span
+                  >
+               </div>
+               <!--company 3 container -->
+               <div>
+                  <h4 class="profession__title">
+                     Teacher of physics and computer science
+                  </h4>
+                  <p class="profession__company">School</p>
+                  <span class="profession__time"
+                     >September 2008 - May 2013
+                     <span class="profession__divider">|</span> Ukraine</span
+                  >
+               </div>
+            </div>
+            <!--Education container -->
+            <div class="education">
+               <h2 class="education__title">Education</h2>
+               <!--Education info container -->
+               <div>
+                  <h4 class="profession__title">
+                     <span class="profession__company">IT School GoIT</span>
+                  </h4>
+                  <p class="profession__subtitle">Full Stack Developer</p>
+                  <span class="profession__time"
+                     >May 2020 - June 2021
+                     <span class="profession__divider">|</span> Ukraine</span
+                  >
+               </div>
+               <div>
+                  <h4 class="profession__title">
+                     <span class="profession__company"
+                        >Kryvyi Rih State Pedagogical University</span
+                     >
+                  </h4>
+                  <p class="profession__subtitle">Graduate student</p>
+                  <span class="profession__time"
+                     >Septermber 2008 - June 2012
+                     <span class="profession__divider">|</span> Ukraine</span
+                  >
+               </div>
+               <div>
+                  <h4 class="profession__title">
+                     <span class="profession__company"
+                        >Kryvyi Rih State Pedagogical University</span
+                     >
+                  </h4>
+                  <h5 class="profession__subtitle">
+                     Teacher of physics, computer science, astronomy and basics
+                     of life safety
+                  </h5>
+                  <span class="profession__time"
+                     >Septermber 2003 - June 2008
+                     <span class="profession__divider">|</span> Ukraine</span
+                  >
+               </div>
+            </div>
+         </section>
+      </main>
+   </body>
 </html>
